@@ -86,13 +86,13 @@ body {
     var photoElement = document.getElementById("photo"); // 图片元素
     var photos = [];
 
-    for (var i = 1; i <= 60; i++) {
+    for (var i = 1; i <= 61; i++) {
     var photoPath = "photo/HF/photo" + i + ".jpg";
     photos.push(photoPath);
 }
 
     // 初始显示第一张照片
-    photoElement.src = photos[0];
+    photoElement.src = photos[57];
 
     // 每隔2秒切换一次照片
     var currentPhotoIndex = 0;
